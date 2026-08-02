@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+[[mods]]
+modId="cosmeticarmor"
+version="${file.jarVersion}"
+displayName="Cosmetic Armor"
+authors="Vonix.Network"
+description='''Cosmetic armor wardrobe integrated into the vanilla inventory screen for Minecraft 1.18.2 Forge.'''
+[[dependencies.cosmeticarmor]]
+modId="forge"
+mandatory=true
+versionRange="[40.2,41)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.cosmeticarmor]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2,1.19)"
+ordering="NONE"
+side="BOTH"
